@@ -111,7 +111,7 @@ input[type=text],
 input[type=password] {
     width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    margin: 2px 0 2px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
@@ -128,11 +128,11 @@ input[type=password]:focus {
 button {
     background-color: #04AA6D;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 4px 2px;
+    margin: 10px 2px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 10%;
     opacity: 0.9;
 }
 
@@ -142,7 +142,7 @@ button:hover {
 
 /* Extra styles for the cancel button */
 .cancelbtn {
-    padding: 14px 20px;
+    padding: 4px 2px;
     background-color: #f44336;
 }
 
@@ -190,7 +190,7 @@ button:hover {
 
 /* Style the horizontal ruler */
 hr {
-    border: 1px solid #f1f1f1;
+    border: 1px solid#f1f1f1;
     margin-bottom: 25px;
 }
 
