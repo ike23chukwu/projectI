@@ -1,0 +1,49 @@
+style {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.board {
+    border: 10px solid red;
+    width: 450px;
+    height: 450px;
+}
+
+.tile {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+}
+
+.tile:nth-child(even) {
+    background-color: black;
+}
+
+table {
+    border: 5px solid transparent;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.tr {
+    color: black;
+    display: flex;
+    margin: 5px;
+}
+
+.td {
+    color: black;
+}
+
+.context {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
